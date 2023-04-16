@@ -1,5 +1,17 @@
 # Baby JARVIS
 
+<img width="50%" src="https://user-images.githubusercontent.com/86072294/232321509-52444906-53d8-40bd-bfbf-db5fd13c5016.jpg"/>
+
+This is a task automation and execution device using OpenAI ChatGPT-4. Baby JARVIS aggregates the overall results and presents both specific and action plans for a single command. 
+
+Three Big GPT command systems cycles for list-up:
+1. Task Prioritization Agent (GPT-4)
+2. Execution Agent (GPT-4)
+3. Task Creation Agent (GPT-4)
+
+Two tasking memories managed for finalization:
+1. Task Queue
+2. Memory
 
 
 # Objective
