@@ -1,18 +1,26 @@
-# Baby JARVIS
+# The Baby JARVIS
 
-<img width="50%" src="https://user-images.githubusercontent.com/86072294/232321509-52444906-53d8-40bd-bfbf-db5fd13c5016.jpg"/>
+<p align="center"> <img width="50%" src="https://user-images.githubusercontent.com/86072294/232321509-52444906-53d8-40bd-bfbf-db5fd13c5016.jpg"/>
 
 This is a task automation and execution device using OpenAI ChatGPT-4. Baby JARVIS aggregates the overall results and presents both specific and action plans for a single command. 
 
-Three Big GPT command systems cycles for list-up:
-1. Task Prioritization Agent (GPT-4)
-2. Execution Agent (GPT-4)
-3. Task Creation Agent (GPT-4)
+Three Big GPT command systems cycles for list-up: 1. Task Prioritization Agent (GPT-4) 2. Execution Agent (GPT-4) 3. Task Creation Agent (GPT-4)
+Two tasking memories managed for finalization: 1. Task Queue 2. Memory
 
-Two tasking memories managed for finalization:
-1. Task Queue
-2. Memory
+Diagram is as follows:
 
+<p align="center"> <img width="50%" src="https://user-images.githubusercontent.com/86072294/232323081-38d01835-1bf5-48c9-b559-e2641326224d.jpg"/>
+
+1: Provide objective & tasks  
+2: Complete task  
+3: Send task result  
+4: Add new tasks  
+5: Prioritize tasks   
+6: Cleaned task list  
+
+A: (1) Store task / result pair (2) Query Memory for context  
+B: Query Memory for context  
+C: Context  
 
 # Objective
 
@@ -50,7 +58,7 @@ Finally, the script uses Pinecone to store and retrieve task results for context
 
 To use the script, you will need to follow these steps:
 
-1. Clone the repository via `git clone https://github.com/yoheinakajima/babyagi.git` and `cd` into the cloned repository.
+1. Clone the repository via `git clone https://github.com/Kwon-Research-Group/BMS_Baby_JARVIS.git` and `cd` into the cloned repository.
 2. Install the required packages: `pip install -r requirements.txt`
 3. Copy the .env.example file to .env: `cp .env.example .env`. This is where you will set the following variables.
 4. Set your OpenAI and Pinecone API keys in the OPENAI_API_KEY, OPENAPI_API_MODEL, and PINECONE_API_KEY variables.
