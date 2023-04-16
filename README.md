@@ -14,20 +14,14 @@ This is a task automation and execution device using OpenAI ChatGPT-4. Baby JARV
 Three Big GPT command systems cycles for list-up: 1. Task Prioritization Agent (GPT-4) 2. Execution Agent (GPT-4) 3. Task Creation Agent (GPT-4)
 Two tasking memories managed for finalization: 1. Task Queue 2. Memory
 
+# System Diagram
 Diagram is as follows:
 
 <p align="center"> <img width="50%" src="https://user-images.githubusercontent.com/86072294/232323081-38d01835-1bf5-48c9-b559-e2641326224d.jpg"/>
 
-1: Provide objective & tasks  
-2: Complete task  
-3: Send task result  
-4: Add new tasks  
-5: Prioritize tasks   
-6: Cleaned task list  
-
-A: (1) Store task / result pair (2) Query Memory for context  
-B: Query Memory for context  
-C: Context  
+1: Provide objective & tasks / 2: Complete task / 3: Send task result  
+4: Add new tasks / 5: Prioritize tasks / 6: Cleaned task list  
+A: (1) Store task / result pair (2) Query Memory for context / B: Query Memory for context / C: Context  
 
 # Objective
 
