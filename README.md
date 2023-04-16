@@ -1,4 +1,4 @@
-# The Baby JARVIS - BMS Prototype
+# The Baby JARVIS - BMS Ver. Prototype
 
 <div align="center">
 <br> <br>
