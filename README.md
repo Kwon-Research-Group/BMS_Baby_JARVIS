@@ -5,7 +5,7 @@
  <b> Good BMS, boss. </b>
 <br> <br> <br>
 <b> IMPORTANT: NOT GENERAL PURPOSE - Note that the keywords in the task queue are optimized for BMS tasks. </b> <br>  
-Task queue의 키워드 구성 방식이 배터리 과제 수행을 위해 최적화되어 있으므로 주의하십시오.
+Task queue의 키워드 구성 방식이 배터리 과제 수행을 위해 최적화되어 있습니다.
 </div>
 <p align="center"> <img width="50%" src="https://user-images.githubusercontent.com/86072294/232321509-52444906-53d8-40bd-bfbf-db5fd13c5016.jpg"/>
 
