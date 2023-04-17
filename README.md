@@ -12,14 +12,7 @@ Task queue의 키워드 구성 방식이 배터리 과제 수행을 위해 최�
 This is a task automation and execution device using OpenAI ChatGPT-4. Baby JARVIS aggregates the overall results and presents both specific and action plans for a single command. 
 
 Three Big GPT command systems cycles for list-up: 1. Task Prioritization Agent (GPT-4) 2. Execution Agent (GPT-4) 3. Task Creation Agent (GPT-4)
-Two tasking memories managed for finalization: 1. Task Queue 2. Memory
-
-# Developers
-Byeongho Hwang (CrovaS, KAIST KRG)   
-Gahyun Kim (CrovaG, Yonsei Univ CE)    
-Jaehyun Lee (CrovaY, Seoul National Univ. CE)    
-Woohyun Han (CrovaP, Google)  
-Yohei Nakajima (Untapped Capital)   
+Two tasking memories managed for finalization: 1. Task Queue 2. Memory 
 
 # System Diagram
 Diagram is as follows:
