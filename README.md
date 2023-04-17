@@ -2,7 +2,7 @@
 
 <div align="center">
 <br> <br>
- <b> Good BMS, boss. </b>
+ <b> "Good BMS, boss." </b>
 <br> <br> <br>
 <b> IMPORTANT: NOT GENERAL PURPOSE - Note that the keywords in the task queue are optimized for BMS tasks. </b> <br>  
 Task queue의 키워드 구성 방식이 배터리 과제 수행을 위해 최적화되어 있습니다.
